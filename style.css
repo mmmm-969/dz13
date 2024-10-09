@@ -1,0 +1,41 @@
+@keyframes colorChange {
+    0% {
+        fill: rgb(243, 94, 186);
+    }
+    25% {
+        fill: rgb(116, 156, 231);
+    }
+    50% {
+        fill: rgb(100, 226, 214);
+    }
+    75% {
+        fill: rgb(111, 24, 86); 
+    }
+    100% {
+        fill: rgb(29, 8, 25); 
+    }
+}
+
+
+
+@keyframes colorstroke {
+    0% {
+        stroke: rgb(126, 28, 108); 
+    }
+    25% {
+        stroke: rgb(111, 24, 86); 
+    }
+    50% {
+        stroke: rgb(69, 20, 55);
+    }
+    75% {
+        stroke: rgb(126, 28, 108);
+    }
+    100% {
+        stroke: rgb(243, 94, 186);
+    }
+}
+
+.animated-box {
+    animation: colorChange 3s infinite, colorstroke 5s infinite; 
+}
